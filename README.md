@@ -102,6 +102,28 @@ A complete overview of how HTML handles all forms of media content.
 **What it demonstrates:**
 Ability to handle and embed all core media types in HTML — images, video, audio, and third party content — the foundation of any media-rich web interface.
 
+
+# Phase 02 - css
+
+# 01. Selectors and Properties
+A practical overview of how CSS targets and styles HTML elements using different selector types.
+
+**Covers:**
+- Element selector — targets HTML tags directly
+- Class selector — targets elements with a specific class
+- ID selector — targets a unique element by its ID
+- Grouped selectors — applies styles to multiple elements at once
+- Descendant selector — targets elements nested inside a parent
+- Pseudo-class selector — targets elements based on their state e.g. `:hover`
+- Pseudo-element selector — targets a specific part of an element e.g. `::first-letter`
+- Universal selector — applies styles to every element on the page
+
+**What it demonstrates:**
+Understanding of how CSS selectors work and how to precisely target any element on a webpage — the foundation of every styling decision in a real project.
+
+**What it demonstrates:**
+Understanding of how browsers parse and render HTML documents — the starting point of every web application ever built.
+
 Become a full-stack developer  
 Build real-world projects  
 Master modern web technologies  
