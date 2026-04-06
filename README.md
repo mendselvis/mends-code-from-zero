@@ -134,7 +134,22 @@ A visual demonstration of how the CSS box model works and how every element on t
 **What it demonstrates:**
 Understanding of how browsers calculate the size and spacing of every element on the page — the foundation of all CSS layouts.
 
-Become a full-stack developer  
+# 03. Flexbox
+A complete demonstration of CSS Flexbox — the most widely used layout system in modern web development.
+
+**Covers:**
+- `display: flex` — activates flexbox on a container
+- `flex-direction` — controls the direction of items, row or column
+- `justify-content` — aligns items along the main axis
+- `align-items` — aligns items along the cross axis
+- `flex-wrap` — allows items to wrap onto multiple lines
+- `flex-grow` — allows an item to grow and fill available space
+- `gap` — controls spacing between flex items
+
+**What it demonstrates:**
+Ability to build responsive, well-structured layouts using Flexbox — used in navigation bars, card grids, dashboards and virtually every modern web interface.
+
+Become a full-stack developer 
 Build real-world projects  
 Master modern web technologies  
 Document my journey publicly  
