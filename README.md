@@ -149,6 +149,21 @@ A complete demonstration of CSS Flexbox — the most widely used layout system i
 **What it demonstrates:**
 Ability to build responsive, well-structured layouts using Flexbox — used in navigation bars, card grids, dashboards and virtually every modern web interface.
 
+# 04. Grid
+A complete demonstration of CSS Grid — the most powerful layout system available in CSS.
+
+**Covers:**
+- `display: grid` — activates grid on a container
+- `grid-template-columns` — defines the number and size of columns
+- `repeat()` and `1fr` — creates equal and flexible column sizing
+- `gap` — controls spacing between grid items
+- `grid-column: span` — makes an item span across multiple columns
+- `grid-row: span` — makes an item span across multiple rows
+- `grid-template-areas` — defines named layout areas for a page structure
+
+**What it demonstrates:**
+Ability to build complex, two-dimensional layouts using CSS Grid — used in page structures, dashboards, image galleries and any interface that requires precise control over both rows and columns.
+
 Become a full-stack developer 
 Build real-world projects  
 Master modern web technologies  
