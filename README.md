@@ -7,8 +7,8 @@ Roadmap
 
 | Phase | Domain | Technologies | Status |
 |-------|--------|--------------|--------|
-| 01 | Markup | HTML5, Semantic Elements, Forms | 🟡 In Progress |
-| 02 | Styling | CSS3, Flexbox, Grid, Animations, Responsive Design | ⬜ Upcoming |
+| 01 | Markup | HTML5, Semantic Elements, Forms | ✅ Complete |
+| 02 | Styling | CSS3, Flexbox, Grid, Animations, Responsive Design | In progres|
 | 03 | Logic | JavaScript ES6+, DOM, Fetch API, Local Storage | ⬜ Upcoming |
 | 04 | Frontend Framework | React, Components, Hooks, State Management | ⬜ Upcoming |
 | 05 | Meta Framework | Next.js, SSR, SSG, API Routes | ⬜ Upcoming |
