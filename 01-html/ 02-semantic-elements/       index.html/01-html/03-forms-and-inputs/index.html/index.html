@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Inputs</title>
+  </head>
+  <body>
+
+    <!-- Form — wraps all input elements and handles submission -->
+    <form action="#" method="POST">
+
+      <!-- Text input -->
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Mends Elvis" />
+
+      <!-- Email input -->
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="mends@example.com" />
+
+      <!-- Password input -->
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+
+      <!-- Number input -->
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="1" max="100" />
+
+      <!-- Textarea — multi-line text input -->
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+
+      <!-- Select dropdown -->
+      <label for="role">Role</label>
+      <select id="role" name="role">
+        <option value="">Select a role</option>
+        <option value="frontend">Frontend Developer</option>
+        <option value="backend">Backend Developer</option>
+        <option value="fullstack">Full Stack Developer</option>
+      </select>
+
+      <!-- Radio buttons -->
+      <p>Experience Level</p>
+      <input type="radio" id="junior" name="level" value="junior" />
+      <label for="junior">Junior</label>
+
+      <input type="radio" id="mid" name="level" value="mid" />
+      <label for="mid">Mid-level</label>
+
+      <input type="radio" id="senior" name="level" value="senior" />
+      <label for="senior">Senior</label>
+
+      <!-- Checkboxes -->
+      <p>Technologies</p>
+      <input type="checkbox" id="html" name="tech" value="html" />
+      <label for="html">HTML</label>
+
+      <input type="checkbox" id="css" name="tech" value="css" />
+      <label for="css">CSS</label>
+
+      <input type="checkbox" id="js" name="tech" value="js" />
+      <label for="js">JavaScript</label>
+
+      <!-- Submit button -->
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </body>
+</html>
