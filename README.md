@@ -56,7 +56,7 @@ Understanding of semantic HTML and how to structure a webpage in a way that is r
 **What it demonstrates:**
 Understanding of semantic HTML and how to structure a webpage in a way that is readable by both browsers and search engines.
 
-### 03. Forms and Inputs
+# 03. Forms and Inputs
 A complete HTML form covering all common input types used in real world applications.
 
 **Covers:**
@@ -71,6 +71,22 @@ A complete HTML form covering all common input types used in real world applicat
 **What it demonstrates:**
 Understanding of how to collect and structure user data in HTML before any styling or logic is applied.
 Goals
+
+# 04. Tables
+A structured HTML table built to display relational data clearly and semantically.
+
+**Covers:**
+- `<table>` — the table container
+- `<thead>` — table header section
+- `<tbody>` — table body section
+- `<tfoot>` — table footer section
+- `<tr>` — table row
+- `<th>` — header cell
+- `<td>` — data cell
+- `colspan` — spanning a cell across multiple columns
+
+**What it demonstrates:**
+Ability to present structured, relational data in a clean and accessible format — used in dashboards, admin panels, and data-heavy interfaces across the web.
 
 Become a full-stack developer  
 Build real-world projects  
