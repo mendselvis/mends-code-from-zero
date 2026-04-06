@@ -15,8 +15,8 @@ Roadmap
 | 06 | Backend | Node.js, Express, REST APIs, PostgreSQL, Auth | ⬜ Upcoming |
 | 07 | Production | Full Stack Projects, Deployment, CI/CD | ⬜ Upcoming |
 
- Phase 01 — HTML
- 01. Structure and Tags
+# Phase 01 — HTML
+# 01. Structure and Tags
 A foundational HTML document covering the core building blocks of the web.
 
 ## Tools & Setup
@@ -37,22 +37,39 @@ Line breaks and horizontal rules
 What it demonstrates:
 Understanding of how browsers parse and render HTML documents.
 
-
- ### 02. Semantic Elements
+# 02. Semantic Elements
 A structured HTML document using semantic tags that give meaning to content.
 
-# Covers
-<header> — top of the page, holds logo and intro
-<nav> — navigation links
-<main> — primary content of the page
-<section> — thematic grouping of content
-<article> — self-contained content block
-<aside> — secondary or related content
-<footer> — bottom of the page
+**Covers:**
+- `<header>` — top of the page, holds logo and intro
+- `<nav>` — navigation links
+- `<main>` — primary content of the page
+- `<section>` — thematic grouping of content
+- `<article>` — self-contained content block
+- `<aside>` — secondary or related content
+- `<footer>` — bottom of the page
 
 **What it demonstrates:**
 Understanding of semantic HTML and how to structure a webpage in a way that is readable by both browsers and search engines.
 
+
+**What it demonstrates:**
+Understanding of semantic HTML and how to structure a webpage in a way that is readable by both browsers and search engines.
+
+### 03. Forms and Inputs
+A complete HTML form covering all common input types used in real world applications.
+
+**Covers:**
+- `<form>` — wraps all input elements and handles submission
+- `<input>` — text, email, password, number
+- `<textarea>` — multi-line text input
+- `<select>` — dropdown menu
+- Radio buttons — single choice selection
+- Checkboxes — multiple choice selection
+- `<button>` — form submission
+
+**What it demonstrates:**
+Understanding of how to collect and structure user data in HTML before any styling or logic is applied.
 Goals
 
 Become a full-stack developer  
