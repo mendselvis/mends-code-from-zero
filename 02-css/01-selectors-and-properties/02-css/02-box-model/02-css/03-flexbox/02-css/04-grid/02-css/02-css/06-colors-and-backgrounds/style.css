@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #111;
+  --color-secondary: #555;
+  --color-accent: #0070f3;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+.color-grid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.swatch {
+  width: 120px;
+  height: 80px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  padding: 8px;
+}
+
+.swatch p {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Color formats */
+.hex { background-color: #111; }
+.rgb { background-color: rgb(0, 112, 243); }
+.rgba { background-color: rgba(0, 112, 243, 0.6); }
+.hsl { background-color: hsl(210, 100%, 50%); }
+
+/* CSS variables */
+.primary { background-color: var(--color-primary); }
+.secondary { background-color: var(--color-secondary); }
+.accent { background-color: var(--color-accent); }
+
+/* Background color */
+.bg-solid {
+  background-color: #111;
+  color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+/* Gradients */
+.bg-linear {
+  background: linear-gradient(135deg, #111, #0070f3);
+  color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.bg-radial {
+  background: radial-gradient(circle, #0070f3, #111);
+  color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+/* Background image */
+.bg-image {
+  background-image: url('https://picsum.photos/800/200');
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-image p {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Opacity */
+.opacity-100 { background-color: #0070f3; }
+.opacity-75 { background-color: rgba(0, 112, 243, 0.75); }
+.opacity-50 { background-color: rgba(0, 112, 243, 0.5); }
+.opacity-25 { background-color: rgba(0, 112, 243, 0.25); }
