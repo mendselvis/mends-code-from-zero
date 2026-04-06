@@ -121,8 +121,18 @@ A practical overview of how CSS targets and styles HTML elements using different
 **What it demonstrates:**
 Understanding of how CSS selectors work and how to precisely target any element on a webpage — the foundation of every styling decision in a real project.
 
+# 02. Box Model
+A visual demonstration of how the CSS box model works and how every element on the web is structured.
+
+**Covers:**
+- `margin` — space outside the element
+- `padding` — space inside the element
+- `border` — the boundary around the element
+- `width` and `height` — the size of the content area
+- `box-sizing: border-box` — includes padding and border in the element's total width
+
 **What it demonstrates:**
-Understanding of how browsers parse and render HTML documents — the starting point of every web application ever built.
+Understanding of how browsers calculate the size and spacing of every element on the page — the foundation of all CSS layouts.
 
 Become a full-stack developer  
 Build real-world projects  
