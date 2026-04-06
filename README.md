@@ -164,6 +164,23 @@ A complete demonstration of CSS Grid — the most powerful layout system availab
 **What it demonstrates:**
 Ability to build complex, two-dimensional layouts using CSS Grid — used in page structures, dashboards, image galleries and any interface that requires precise control over both rows and columns.
 
+# 05. Typography
+A comprehensive reference for CSS typography covering every core text property used in production interfaces.
+
+**Covers:**
+- `font-family` — sans-serif, serif and monospace fonts
+- Google Fonts integration via `<link>` in the HTML head
+- `font-size` — small, base, large and extra large scales
+- `font-weight` — regular, medium and semibold
+- `line-height` — tight, normal and loose spacing between lines
+- `letter-spacing` — tight, normal and wide character spacing
+- `text-align` — left, center and right alignment
+- `text-transform` — uppercase and capitalize
+- `text-decoration` — underline and strikethrough
+
+**What it demonstrates:**
+Ability to control and refine text at a professional level — typography is one of the first things a recruiter or client notices in any web interface.
+
 Become a full-stack developer 
 Build real-world projects  
 Master modern web technologies  
