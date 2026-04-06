@@ -38,6 +38,21 @@ What it demonstrates:
 Understanding of how browsers parse and render HTML documents.
 
 
+ ### 02. Semantic Elements
+A structured HTML document using semantic tags that give meaning to content.
+
+# Covers
+<header> — top of the page, holds logo and intro
+<nav> — navigation links
+<main> — primary content of the page
+<section> — thematic grouping of content
+<article> — self-contained content block
+<aside> — secondary or related content
+<footer> — bottom of the page
+
+**What it demonstrates:**
+Understanding of semantic HTML and how to structure a webpage in a way that is readable by both browsers and search engines.
+
 Goals
 
 Become a full-stack developer  
