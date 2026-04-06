@@ -88,6 +88,20 @@ A structured HTML table built to display relational data clearly and semanticall
 **What it demonstrates:**
 Ability to present structured, relational data in a clean and accessible format — used in dashboards, admin panels, and data-heavy interfaces across the web.
 
+# 05. Media — Images and Video
+A complete overview of how HTML handles all forms of media content.
+
+**Covers:**
+- `<img>` with `src`, `alt`, `width` and `height` attributes
+- `<figure>` and `<figcaption>` for semantic image grouping
+- `<video>` with `controls`, `autoplay`, `muted` and `loop` attributes
+- `<audio>` with `controls` for sound playback
+- `<iframe>` for embedding external content such as YouTube videos
+- `<source>` for specifying media file types
+
+**What it demonstrates:**
+Ability to handle and embed all core media types in HTML — images, video, audio, and third party content — the foundation of any media-rich web interface.
+
 Become a full-stack developer  
 Build real-world projects  
 Master modern web technologies  
