@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+.box {
+  width: 140px;
+  height: 80px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* Transitions */
+.btn-transition {
+  padding: 12px 24px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.btn-transition:hover {
+  background-color: #0070f3;
+  transform: translateY(-2px);
+}
+
+.box-transition {
+  width: 140px;
+  height: 80px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+  cursor: pointer;
+}
+
+.box-transition:hover {
+  background-color: #0070f3;
+  border-radius: 50%;
+}
+
+/* Transform */
+.transform-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.transform-scale:hover { transform: scale(1.2); transition: transform 0.3s ease; }
+.transform-rotate:hover { transform: rotate(45deg); transition: transform 0.3s ease; }
+.transform-translate:hover { transform: translateX(20px); transition: transform 0.3s ease; }
+.transform-skew:hover { transform: skewX(15deg); transition: transform 0.3s ease; }
+
+/* Keyframe animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-40px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.animate-fade { animation: fadeIn 1s ease forwards; }
+.animate-slide { animation: slideIn 1s ease forwards; }
+.animate-bounce { animation: bounce 1s ease infinite; }
+.animate-pulse { animation: pulse 1.5s ease infinite; }
