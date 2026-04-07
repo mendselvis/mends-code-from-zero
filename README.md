@@ -210,6 +210,20 @@ A practical demonstration of CSS motion — from simple hover transitions to ful
 **What it demonstrates:**
 Ability to bring interfaces to life with purposeful motion — transitions and animations are a key part of polished, production-ready user interfaces.
 
+# 08. Responsive Design
+A fully responsive webpage that adapts cleanly across desktop, tablet and mobile screen sizes.
+
+**Covers:**
+- `meta viewport` — ensures correct scaling on mobile devices
+- `@media` queries — applies styles at specific screen widths
+- Mobile first approach — base styles for mobile, scaled up for larger screens
+- Responsive navigation — hamburger menu on mobile, full links on desktop
+- Responsive typography — font sizes that scale across breakpoints
+- Responsive grid — 3 columns on desktop, 2 on tablet, 1 on mobile
+
+**What it demonstrates:**
+Ability to build interfaces that work across all screen sizes — responsive design is a non-negotiable skill in every frontend role.
+
 Become a full-stack developer 
 Build real-world projects  
 Master modern web technologies  
