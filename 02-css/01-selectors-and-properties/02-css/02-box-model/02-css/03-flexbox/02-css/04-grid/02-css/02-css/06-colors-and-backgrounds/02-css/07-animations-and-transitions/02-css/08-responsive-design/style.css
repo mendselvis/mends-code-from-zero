@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  color: #111;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #555;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  padding: 80px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 32px;
+  line-height: 1.7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #111;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px;
+  font-size: 14px;
+  color: #999;
+}
+
+/* Tablet — 768px and below */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero {
+    padding: 60px 24px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 24px;
+  }
+}
+
+/* Mobile — 480px and below */
+@media (max-width: 480px) {
+  nav {
+    padding: 16px 24px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
