@@ -79,4 +79,4 @@ console.log(skills);
 // Object access
 console.log(developer.name);
 console.log(developer.skills);
-console.log(developer["age"]);
+console.log(developer["age"]);node script.js
