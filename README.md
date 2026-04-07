@@ -181,6 +181,20 @@ A comprehensive reference for CSS typography covering every core text property u
 **What it demonstrates:**
 Ability to control and refine text at a professional level — typography is one of the first things a recruiter or client notices in any web interface.
 
+# 06. Colors and Backgrounds
+A complete reference for CSS color formats, background properties and visual styling techniques.
+
+**Covers:**
+- Color formats — `hex`, `rgb`, `rgba`, `hsl`
+- CSS variables — defining and reusing colors with `:root`
+- `background-color` — solid color backgrounds
+- `linear-gradient` and `radial-gradient` — gradient backgrounds
+- `background-image` — image backgrounds with `cover` and `center`
+- `opacity` and `rgba` — controlling transparency
+- Practical use of color overlays on background images
+
+**What it demonstrates:**
+Ability to work with color at a professional level — from defining a consistent color system using CSS variables to applying gradients and image backgrounds used in real world interfaces.
 Become a full-stack developer 
 Build real-world projects  
 Master modern web technologies  
