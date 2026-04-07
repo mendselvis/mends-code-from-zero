@@ -195,6 +195,21 @@ A complete reference for CSS color formats, background properties and visual sty
 
 **What it demonstrates:**
 Ability to work with color at a professional level — from defining a consistent color system using CSS variables to applying gradients and image backgrounds used in real world interfaces.
+
+# 07. Animations and Transitions
+A practical demonstration of CSS motion — from simple hover transitions to full keyframe animations.
+
+**Covers:**
+- `transition` — smoothly animates property changes on hover or state change
+- `transform` — `scale`, `rotate`, `translate` and `skew`
+- `@keyframes` — defines custom animations with multiple steps
+- `animation` — applies keyframe animations with duration, easing and iteration
+- `ease`, `linear` and other timing functions
+- Infinite and forwards animation fill modes
+
+**What it demonstrates:**
+Ability to bring interfaces to life with purposeful motion — transitions and animations are a key part of polished, production-ready user interfaces.
+
 Become a full-stack developer 
 Build real-world projects  
 Master modern web technologies  
