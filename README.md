@@ -17,7 +17,7 @@ Roadmap
 
 # Phase 01 — HTML
 # 01. Structure and Tags
-A foundational HTML document covering the core building blocks of the web.
+A foundational HTML document covering the core building blocks of the web. 
 
 ## Tools & Setup
 
