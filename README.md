@@ -6,7 +6,7 @@ A structured self-taught journey through modern web development — built in pub
 Roadmap
 
 | Phase | Domain | Technologies | Status |
-|-------|--------|--------------|--------|
+|-------|--------|--------------|--------| 
 | 01 | Markup | HTML5, Semantic Elements, Forms | ✅ Complete |
 | 02 | Styling | CSS3, Flexbox, Grid, Animations, Responsive Design | In progres|
 | 03 | Logic | JavaScript ES6+, DOM, Fetch API, Local Storage | ⬜ Upcoming |
