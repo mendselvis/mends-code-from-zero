@@ -5,7 +5,7 @@
 A structured self-taught journey through modern web development — built in public, one concept at a time.
 Roadmap
 
-| Phase | Domain | Technologies | Status |
+| Phase | Domain | Technologies | Status | 
 |-------|--------|--------------|--------| 
 | 01 | Markup | HTML5, Semantic Elements, Forms | ✅ Complete |
 | 02 | Styling | CSS3, Flexbox, Grid, Animations, Responsive Design | In progres|
